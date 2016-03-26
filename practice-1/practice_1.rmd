@@ -17,7 +17,8 @@ babydata <- read_excel("~/HW-1-Data/InfantData.xlsx")
    
    
 ###Exercise 1: Histogram
-Uses Intel stock data
+Uses Intel stock data   
+
 *Using Intel stock data, make a histogram of the overall distribution of deviations.*
 
 ``` {r eval=FALSE}
@@ -39,7 +40,8 @@ daily.close
    
    
 ###Exercise 2: Bar graph
-Uses Intel stock data
+Uses Intel stock data   
+
 *A bar graph of the median deviations by test. Do not subdivide by the display or the trial. Order the x-axis to make the display as clear as possible.*
 
 ``` {r eval=FALSE}
@@ -58,7 +60,8 @@ daily.volume
    
    
 ###Exercise 3: Bar graph
-Uses Intel stock data
+Uses Intel stock data   
+
 *A bar graph of the standard deviation of the "Deviations". Remember that this measures the spread of how widely subjects varied in their responses. Again, order the x-axis to make the graph clear.*
 
 ``` {r eval=FALSE}
@@ -76,7 +79,8 @@ daily.volume.hist
    
    
 ###Exercise 4: Scatterplot
-Uses Intel stock data
+Uses Intel stock data   
+
 * Create a new field called "absoluteDeviation" by computing the absolute value of the Deviation field you created. Then do the same as in b) with the absolute deviation. Again, do not keep the default order (alphabetical) of the x-axis.*
 
 ``` {r eval=FALSE}
@@ -97,7 +101,8 @@ pricerange.scatter
    
    
 ###Exercise 5: Histogram
-Uses perception experiment data
+Uses perception experiment data   
+
 *A histogram of the overall distribution of deviations.*
 
 ``` {r eval=FALSE}
@@ -116,7 +121,8 @@ deviation.hist
    
    
 ###Exercise 6: Bar graph
-Uses perception experiment data
+Uses perception experiment data   
+
 *A bar graph of the median Deviations by* *Test . do not subdivide by the display or the trial. Order the x-axis to make the display as clear as possible.*
 ``` {r eval=FALSE}
 #make a bar graph of the median deviations by test
@@ -139,7 +145,8 @@ dev.by.test.chart
 
 
 ###Exercise 7: Bar graph
-Uses perception experiment data
+Uses perception experiment data   
+
 *A bar graph of the standard deviation of the "Deviations". Remember that this measures the spread of how widely subjects varied in their responses. Again, order the x-axis to make the graph clear.*
 
 ``` {r eval=FALSE}
@@ -165,7 +172,8 @@ plot.devs
 
 
 ###Exercise 8: Bar graph
-Uses perception experiment data
+Uses perception experiment data   
+
 *Create a new field called "absoluteDeviation" by computing the absolute value of the Deviation field you* *created. Then do the same as in b) with the absolute deviation. Again, do not* *keep the default order (alphabetical) of the x-axis.*
 
 ``` {r eval=FALSE}
@@ -199,7 +207,8 @@ abs.dev.barplot
 ![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.8.png)
 
 ###Exercise 9: Scatterplot
-Uses baby data
+Uses baby data   
+
 *Graph the data as a scatter plot of length on the x-axis and weight on the y-axis. Differentiate in the plot between boys and girls, but graph both on the same plot.*
 
 ``` {r eval=FALSE}
@@ -223,7 +232,8 @@ height.weight.gendered.plot
 
 
 ###Exercise 10: Scatterplot w/ trendline
-Uses baby data
+Uses baby data   
+
 *Then create another version of the* *graph that has separate trend lines for the two populations on the graph.* *Adjust both the line and data point weight and color to make the scatter* *plot and trend lines stand.*
 
 ``` {r eval=FALSE}
@@ -243,14 +253,16 @@ height.weight.gendered.plottrend
 ![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.10.png)
 
 ### Exercise 11: Tree map (Tableau)
-Uses dataset of car makes/models
+Uses dataset of car makes/models   
+
 *A tree-map based on price with a main subdivision from the make of the car and a minor subdivision based on the model. Hint: hierarchies may be useful for this.*
 
 ![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.11.png)
 
 
 ###Exercise 12: Bubble chart (Tableau)
-Uses dataset of car makes/models
+Uses dataset of car makes/models   
+
 *A bubble chart of the same type*
 
 ![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.12.png)
@@ -259,21 +271,24 @@ The biggest difference I see between the two designs is that a tree map puts mor
 
 
 ###Exercise 13: Line graph (Tableau)
-Uses dataset of population in Montana reservations
+Uses dataset of population in Montana reservations   
+
 *Graphs the population growth over the years for the individual reservations.*
   
 ![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.13.png)
 
 
 ###Exercise 14: Stacked bar chart (Tableau)
-Uses dataset of population in Montana reservations
+Uses dataset of population in Montana reservations   
+
 *Graphs the total reservation population subdivided among the different reservations for each year.* 
 
 ![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.14.png)
 
 
 ###Exercise 15: Box-and-whisker plot (Tableau)
-Uses dataset of population in Montana reservations
+Uses dataset of population in Montana reservations   
+
 *Graphs the population distribution for each reservation with a box-and-whisker plot.*
 
 ![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.15.png)
