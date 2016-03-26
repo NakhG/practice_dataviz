@@ -117,7 +117,7 @@ deviation.hist <- ggplot(data = Experiment, aes(Experiment$Deviation)) + geom_hi
   scale_y_continuous(expand = c(0,0))
 deviation.hist
 ```
-![](Chttps://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.5.png)   
+![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.5.png)   
    
    
 ###Exercise 6: Bar graph
@@ -141,7 +141,7 @@ dev.by.test.chart <- ggplot(data = med.dev.by.test, aes(x = reorder(Test, median
   scale_y_continuous(breaks = seq(-0.2,0.2,.05))
 dev.by.test.chart
 ```
-![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/mages-practice-1\plot1.6.png)
+![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.6.png)
 
 
 ###Exercise 7: Bar graph
