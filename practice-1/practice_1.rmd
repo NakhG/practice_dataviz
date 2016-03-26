@@ -35,7 +35,7 @@ daily.close <- ggplot(data = Intel.1998, aes(x = Date, y = Close)) + geom_line(c
 daily.close
 ```
 
-![](C:\Users\George\Documents\GitHub\practice_dataviz\practice-1\images-practice-1\plot1.1.png)
+![plot1.1](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.1.png)
    
    
 ###Exercise 2: Bar graph
@@ -54,7 +54,7 @@ daily.volume <- ggplot(data = Intel.1998, aes(x=Date, y=Volume/1000000)) +
 daily.volume
 
 ```
-![](C:\Users\George\Documents\GitHub\practice_dataviz\practice-1\images-practice-1\plot1.2.png)   
+![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.2.png)   
    
    
 ###Exercise 3: Bar graph
@@ -72,7 +72,7 @@ daily.volume.hist <- ggplot(data = Intel.1998, aes(Volume/1000000)) + geom_histo
 
 daily.volume.hist
 ```
-![](C:\Users\George\Documents\GitHub\practice_dataviz\practice-1\images-practice-1\plot1.3.png)   
+![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.3.png)   
    
    
 ###Exercise 4: Scatterplot
@@ -93,7 +93,7 @@ pricerange.scatter <- ggplot(data = Intel.1998, aes(x = Volume/1000000, y = Pric
         axis.title.y = element_text(size=16, face="bold"), axis.text.y = element_text(size=12))
 pricerange.scatter
 ```
-![](C:\Users\George\Documents\GitHub\practice_dataviz\practice-1\images-practice-1\plot1.4.png)   
+![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.4.png)   
    
    
 ###Exercise 5: Histogram
@@ -112,7 +112,7 @@ deviation.hist <- ggplot(data = Experiment, aes(Experiment$Deviation)) + geom_hi
   scale_y_continuous(expand = c(0,0))
 deviation.hist
 ```
-![](C:\Users\George\Documents\GitHub\practice_dataviz\practice-1\images-practice-1\plot1.5.png)   
+![](Chttps://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.5.png)   
    
    
 ###Exercise 6: Bar graph
@@ -135,7 +135,7 @@ dev.by.test.chart <- ggplot(data = med.dev.by.test, aes(x = reorder(Test, median
   scale_y_continuous(breaks = seq(-0.2,0.2,.05))
 dev.by.test.chart
 ```
-![](C:\Users\George\Documents\GitHub\practice_dataviz\practice-1\images-practice-1\plot1.6.png)
+![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/mages-practice-1\plot1.6.png)
 
 
 ###Exercise 7: Bar graph
@@ -161,7 +161,7 @@ plot.devs <- ggplot(data = newdata, aes(x = reorder(newdata$Test, newdata$sd.dev
 
 plot.devs
 ```
-![](C:\Users\George\Documents\GitHub\practice_dataviz\practice-1\images-practice-1\plot1.7.png)
+![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.7.png)
 
 
 ###Exercise 8: Bar graph
@@ -196,7 +196,7 @@ abs.dev.barplot <- ggplot(data=grouped.dev.summary, aes(x=reorder(Test, grouped.
 abs.dev.barplot
 
 ```
-![](C:\Users\George\Documents\GitHub\practice_dataviz\practice-1\images-practice-1\plot1.8.png)
+![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.8.png)
 
 ###Exercise 9: Scatterplot
 Uses baby data
@@ -219,7 +219,7 @@ height.weight.gendered.plot <- ggplot(data= babydata, aes(x = babydata$`Height i
   
 height.weight.gendered.plot
 ```
-![](C:\Users\George\Documents\GitHub\practice_dataviz\practice-1\images-practice-1\plot1.9.png)
+![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.9.png)
 
 
 ###Exercise 10: Scatterplot w/ trendline
@@ -240,20 +240,20 @@ height.weight.gendered.plottrend <- ggplot(data= babydata, aes(x = babydata$`Hei
   scale_color_discrete(name = "Sex")
 height.weight.gendered.plottrend
 ```
-![](C:\Users\George\Documents\GitHub\practice_dataviz\practice-1\images-practice-1\plot1.10.png)
+![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.10.png)
 
 ### Exercise 11: Tree map (Tableau)
 Uses dataset of car makes/models
 *A tree-map based on price with a main subdivision from the make of the car and a minor subdivision based on the model. Hint: hierarchies may be useful for this.*
 
-![](C:\Users\George\Documents\GitHub\practice_dataviz\practice-1\images-practice-1\plot1.11.png)
+![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.11.png)
 
 
 ###Exercise 12: Bubble chart (Tableau)
 Uses dataset of car makes/models
 *A bubble chart of the same type*
 
-![](C:\Users\George\Documents\GitHub\practice_dataviz\practice-1\images-practice-1\plot1.12.png)
+![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.12.png)
 
 The biggest difference I see between the two designs is that a tree map puts more emphasis on the makes, while bubble graph puts more emphasis on the model and price. This is, in my opinion, because the bubble graph has separation between the different values, whereas a tree graph makes them seem part of whole, then as different makes, then size, then model. That difference in priority is what my eye goes to. 
 
@@ -262,18 +262,18 @@ The biggest difference I see between the two designs is that a tree map puts mor
 Uses dataset of population in Montana reservations
 *Graphs the population growth over the years for the individual reservations.*
   
-![](C:\Users\George\Documents\GitHub\practice_dataviz\practice-1\images-practice-1\plot1.13.png)
+![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.13.png)
 
 
 ###Exercise 14: Stacked bar chart (Tableau)
 Uses dataset of population in Montana reservations
 *Graphs the total reservation population subdivided among the different reservations for each year.* 
 
-![](C:\Users\George\Documents\GitHub\practice_dataviz\practice-1\images-practice-1\plot1.14.png)
+![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.14.png)
 
 
 ###Exercise 15: Box-and-whisker plot (Tableau)
 Uses dataset of population in Montana reservations
 *Graphs the population distribution for each reservation with a box-and-whisker plot.*
 
-![](C:\Users\George\Documents\GitHub\practice_dataviz\practice-1\images-practice-1\plot1.15.png)
+![](https://github.com/NakhG/practice_dataviz/blob/dataviz_uploads/practice-1/images-practice-1/plot1.15.png)
